@@ -9,4 +9,9 @@
 
 將型別檢驗的時間延後，從不同語境中，構成資訊。
 
+
+筆者此處分享之前寫安卓手機元件，其中一元件使用了<T>模板型別的經驗！
+
+https://github.com/katesandroidapp/TravelApp/commit/1c5f08a21d281e542c94581bc3bcebf387cc12dd
+
 TBD...尚未完成。
