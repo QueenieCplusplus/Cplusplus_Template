@@ -9,7 +9,12 @@
 
 # 語法
 
-關鍵字 
+類別前關鍵字
+
+       template<typename TypeVar>
+       class Stack{ }
+
+成員前關鍵字 
 
          template <typename TypeVar>
 	
