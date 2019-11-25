@@ -27,6 +27,8 @@
 	// typename 為型別名稱
 	// 上述的 Type 為通用型態的指示元，是變數容器的名稱
 
+	// 加入關鍵字
+        template <typename TypeVar>
 	class Stack{
 
 	    private:
