@@ -28,6 +28,14 @@ class Stack{
 
 // 加入關鍵字
 template <typename TypeVar>
+bool Stack::isEmpty(){
+    
+    return top == 0;
+    
+};
+
+// 加入關鍵字
+template <typename TypeVar>
 bool Stack::isFull(){
     
     return top == MAX;
@@ -52,6 +60,7 @@ bool Stack::pop(const TypeVar& item){
 
 int main() {
 
+    st.isEmpty();
     st.isFull();
     st.pop();
     return 0;
