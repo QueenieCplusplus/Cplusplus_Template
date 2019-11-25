@@ -1,6 +1,7 @@
 // 2019, 11/25, 19:30, by Queenie
 // Template Func
 // Template Class
+// this file extension shall be .h
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,6 +12,9 @@
 // typename 為型別名稱
 // 上述的 Type 為通用型態的指示元，是變數容器的名稱
 
+#ifdefine STACK_H_
+#define STACK_H_
+template<typename TypeVar>
 class Stack{
 
     private:
@@ -66,3 +70,5 @@ int main() {
     return 0;
 
 }
+
+#endif
