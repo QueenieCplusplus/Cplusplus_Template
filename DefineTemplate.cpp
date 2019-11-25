@@ -52,7 +52,7 @@ bool Stack::pop(const TypeVar& item){
 
 int main() {
 
-    st.isEmpty();
+    st.isFull();
     st.pop();
     return 0;
 
