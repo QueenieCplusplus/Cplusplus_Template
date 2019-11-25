@@ -6,6 +6,36 @@
 
 無型別無關的通用演算法方式來定義 stack 堆疊，藉由傳遞型別名稱當 Arg，將型態 typename 以參數傳入類別中，導入接收者，用於建立類別或是函數，因而不用再定義類別。
 
+# 語法
+
+
+// template <typename TypeVar>;
+// 從以往的值變成型態作為值
+// typename 為型別名稱
+// 上述的 Type 為通用型態的指示元，是變數容器的名稱
+
+	class Stack{
+
+	    private:
+		enum {MAX=10}; // constant: Class
+		TypeVar items[MAX] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0}; // item holder
+		int top; // index
+
+	    public:
+		Stack();
+		bool isFull() const;
+		bool isEmpty() const;
+		bool pop(int& item);
+
+	};
+
+	// 加入關鍵字
+	template <typename TypeVar>
+	bool Stack::pop(const TypeVar& item){
+	    //...
+	};
+
+
 # inline 或稱 unfold, 內聯
 
      To replace a function call withan instance of the function's body.  
