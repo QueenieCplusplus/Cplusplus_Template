@@ -14,4 +14,13 @@
 
 https://github.com/katesandroidapp/TravelApp/commit/1c5f08a21d281e542c94581bc3bcebf387cc12dd
 
+
+
+             class TravelAgentAdapter(private val travelAgentData: List<TravelAgentModel>) :
+                RecyclerView.Adapter<TravelAgentAdapter.BindingHolder>() {
+
+                  //...
+
+               ｝
+
 TBD...尚未完成。
