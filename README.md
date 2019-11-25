@@ -2,6 +2,10 @@
 
 模板，藉由引數傳遞常數 (引數即型別參數化)，檢驗型別時間延後。在不遺失資訊的狀況下，以引數 Argument 方式傳遞型別，有效的 inline，進行編譯時期運算，將型別檢驗的時間延後，從不同語境中，構成資訊。
 
+# 運作原理
+
+無型別無關的通用演算法方式來定義 stack 堆疊，將型態 typename 以參數傳入類別中，因而不用再定義類別。
+
 # inline 或稱 unfold, 內聯
 
      To replace a function call withan instance of the function's body.  
