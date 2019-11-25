@@ -23,4 +23,14 @@ https://github.com/katesandroidapp/TravelApp/commit/1c5f08a21d281e542c94581bc3bc
 
                ｝
 
+
+>>>
+
+
+		class MainPageFragment : BaseFragment<MainPageViewModel, FragmentMainPageBinding>(HomeViewModel::class.java) {
+
+                    //...
+
+                 }
+
 TBD...尚未完成。
