@@ -12,11 +12,12 @@
 類別前關鍵字
 
        template<typename TypeVar>
-       class Stack{ }
+       class Stack{ };
 
 成員前關鍵字 
 
-         template <typename TypeVar>
+         template<typename TypeVar>
+	 void func(){}
 	
 範例
 >>>
