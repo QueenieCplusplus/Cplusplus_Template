@@ -8,11 +8,17 @@
 
 # 語法
 
+關鍵字 
 
-// template <typename TypeVar>;
-// 從以往的值變成型態作為值
-// typename 為型別名稱
-// 上述的 Type 為通用型態的指示元，是變數容器的名稱
+         template <typename TypeVar>
+	
+範例
+>>>
+
+	// template <typename TypeVar>;
+	// 從以往的值變成型態作為值
+	// typename 為型別名稱
+	// 上述的 Type 為通用型態的指示元，是變數容器的名稱
 
 	class Stack{
 
