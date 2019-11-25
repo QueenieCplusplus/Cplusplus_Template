@@ -66,7 +66,7 @@ int main() {
 
     st.isEmpty();
     st.isFull();
-    st.pop();
+    st.pop(88);
     return 0;
 
 }
